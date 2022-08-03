@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "simplyforgotten",
+  "id": "thaumia",
   "version": "${version}",
 
-  "name": "Simply Forgotten",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Thaumia",
+  "description": "Arcane Magic has never been so sweet.",
   "authors": [
-    "Homage to what blocks Mojang has forgotten."
+    "Ghostipedia - Project Lead"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.ghostipedia.simplyforgotten.SimplyForgotten"
+      "net.ghostipedia.thaumia.Thaumia"
     ],
     "client": [
-      "net.ghostipedia.simplyforgotten.SimplyForgottenClient"
+      "net.ghostipedia.thaumia.ThaumiaClient"
     ]
   },
   "mixins": [
-    "simplyforgotten.mixins.json"
+    "thaumia.mixins.json"
   ],
 
   "depends": {

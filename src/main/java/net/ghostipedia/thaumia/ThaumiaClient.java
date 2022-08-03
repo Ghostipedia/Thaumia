@@ -1,8 +1,8 @@
-package net.ghostipedia.simplyforgotten;
+package net.ghostipedia.thaumia;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class SimplyForgottenClient implements ClientModInitializer {
+public class ThaumiaClient implements ClientModInitializer {
         @Override
         public void onInitializeClient() {
 
